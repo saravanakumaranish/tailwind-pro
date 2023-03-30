@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import Image from "next/image"
 
 import {FiArrowDown,FiMenu, FiBell,FiCompass,FiHome,FiSettings,FiStar,FiTrendingUp} from "react-icons/fi"
 import { BsChevronDown,BsFillArrowDownSquareFill } from "react-icons/bs";
@@ -40,7 +41,7 @@ function Home()  {
       <div>
           <h1  className="text-gray-900 font-semibold text-3xl mt-16 flex ml-12" >
             
-            <a href="/" className="cursor-text">Logo</a>
+            <span className="cursor-text">Logo</span>
           </h1>
         <ul className=" text-gray-900 text-2xl mt-9  ">
           <li>
@@ -108,7 +109,7 @@ function Home()  {
 
         <div>
         <div class="flex items-center space-x-4">
-    <img class="w-10 h-10 -mr-2 rounded-full" src="https://images.unsplash.com/photo-1619946794135-5bc917a27793?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=b616b2c5b373a80ffc9636ba24f7a4a9" alt="Avatar" />
+    <Image className=" -mr-2 rounded-full" width='45' height='45' src="/photo.jpg" alt="Avatar" />
     <div class="  dark:text-white">
         <div className="hidden md:block text-2xl">Jastina Clark</div>
         <div class="hidden md:block  text-sm text-gray-500 dark:text-gray-400">Admin</div>
@@ -152,9 +153,7 @@ function Home()  {
         </div>
 
       </div>
-      {/* <div className="z-10 fixed top-0 left-0 w-screen h-screen bg-gray-900 bg-opacity-30 opacity-0 peer-focus:opacity-100 peer:transition duration-200">
-
-      </div> */}
+   
     </div>
     
 </div>
