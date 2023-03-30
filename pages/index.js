@@ -94,7 +94,7 @@ function Home()  {
           <button onClick={Form3}>
 
           <span>
-          <FiBell className="relative z-30  w-7 peer transition   h-7 mr-8  hover:border-sky-300 " />
+          <FiBell className="relative z-10  w-7 peer transition   h-7 mr-8  hover:border-sky-300 " />
             </span>  
 
             
@@ -115,7 +115,7 @@ function Home()  {
         <div class="hidden md:block  text-sm text-gray-500 dark:text-gray-400">Admin</div>
     </div>
     <div className=" flex items-end justify-end px-4 pb-6">
-      <button className="relative z-30 peer h-10 w-10 mt-8 -ml-6  transition">
+      <button className="relative z-10 peer h-10 w-10 mt-8 -ml-6  transition">
         <span><BsChevronDown /></span>
       </button>
       <div className="z-20 fixed  -top-96 -right-96 w-64 h-48 bg-white shadow-2xl peer-focus:top-20 peer-focus:right-1 peer:transition ease-out delay-150 duration-300">
